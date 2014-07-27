@@ -11,6 +11,11 @@ namespace Mi9CodeChallenge.Controllers
 {
     public class PayloadController : ApiController
     {
+        public string Get(string Name)
+        {
+            return "Welcome " + Name;
+        }
+
         public IHttpActionResult Post(InputPayloadRoot inputPayload)
         {
             List<PayloadInfo> payloadInfos = new List<PayloadInfo>();

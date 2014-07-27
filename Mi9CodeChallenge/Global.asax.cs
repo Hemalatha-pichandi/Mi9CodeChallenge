@@ -16,9 +16,7 @@ namespace Mi9CodeChallenge
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
-
-            WebApiConfig.Register(GlobalConfiguration.Configuration);            
+            GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
 }
