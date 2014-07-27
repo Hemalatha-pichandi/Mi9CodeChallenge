@@ -15,7 +15,7 @@ namespace Mi9CodeChallenge.Controllers
         {
             return "Welcome " + Name;
         }
-
+        [Route("")]
         public IHttpActionResult Post(InputPayloadRoot inputPayload)
         {
             List<PayloadInfo> payloadInfos = new List<PayloadInfo>();
