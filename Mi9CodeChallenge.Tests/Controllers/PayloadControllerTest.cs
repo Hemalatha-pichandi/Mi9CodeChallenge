@@ -50,7 +50,7 @@ namespace Mi9CodeChallenge.Tests.Controllers
             StatusCodeResult statusCodeResult = actionResult as StatusCodeResult;
             var negotiatedResult = actionResult as OkNegotiatedContentResult<List<PayloadInfo>>;
             Assert.IsNotNull(negotiatedResult);
-            Assert.AreEqual<int>(3, negotiatedResult.Content.Count);
+            Assert.AreEqual<int>(4, negotiatedResult.Content.Count);
 
         }
         
