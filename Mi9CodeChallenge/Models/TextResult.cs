@@ -6,15 +6,16 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
+using System.Text;
 
 namespace Mi9CodeChallenge.Models
 {
-    public class TextResult : IHttpActionResult
+    public class ErrorResult : IHttpActionResult
     {
         string _value;
         HttpRequestMessage _request;
 
-        public TextResult(string value, HttpRequestMessage request)
+        public ErrorResult(string value, HttpRequestMessage request)
         {
             _value = value;
             _request = request;
@@ -23,7 +24,7 @@ namespace Mi9CodeChallenge.Models
         {
             var response = new HttpResponseMessage()
             {
-                Content = new StringContent(_value),
+                Content = new StringContent(_value, Encoding.UTF8,"application/json"),
                 RequestMessage = _request,
                 StatusCode = System.Net.HttpStatusCode.BadRequest
             };

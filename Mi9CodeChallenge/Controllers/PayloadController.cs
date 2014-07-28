@@ -34,12 +34,12 @@ namespace Mi9CodeChallenge.Controllers
                     return Ok(payloadInfos);
                 }
                 else
-                    return new TextResult("{\"Error\":\"Could not decode request: JSON parsing failed\"}", Request);
+                    return new ErrorResult("{\"Error\":\"Could not decode request: JSON parsing failed\"}", Request);
                     //return BadRequest("Could not decode request: JSON parsing failed");
             }
             catch (Exception ex)
             {
-                return new TextResult("{\"Error\":\"Could not decode request: JSON parsing failed\"}", Request);
+                return new ErrorResult("{\"Error\":\"Could not decode request: JSON parsing failed\"}", Request);
                 //return BadRequest("Could not decode request: JSON parsing failed");
             }
         }

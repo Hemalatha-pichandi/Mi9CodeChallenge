@@ -29,7 +29,7 @@ namespace Mi9CodeChallenge.Tests.Controllers
             IHttpActionResult actionResult = payloadController.Post(null);
             //var contentResult = actionResult as NegotiatedContentResult<InputPayloadRoot>;
 
-            Assert.IsInstanceOfType(actionResult, typeof(TextResult));
+            Assert.IsInstanceOfType(actionResult, typeof(ErrorResult));
         }
 
         [TestMethod]
@@ -38,7 +38,7 @@ namespace Mi9CodeChallenge.Tests.Controllers
             IHttpActionResult actionResult = payloadController.Post(new InputPayloadRoot { payload = null });
             //var contentResult = actionResult as NegotiatedContentResult<InputPayloadRoot>;
 
-            Assert.IsInstanceOfType(actionResult, typeof(TextResult));
+            Assert.IsInstanceOfType(actionResult, typeof(ErrorResult));
         }
 
         [TestMethod]
