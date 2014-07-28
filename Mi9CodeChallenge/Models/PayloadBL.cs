@@ -17,7 +17,7 @@ namespace Mi9CodeChallenge.Models
         public List<PayloadInfo> QueryData(InputPayloadRoot inputPayload)
         {
             var result = inputPayload.payload
-                .Where(p => p.drm && p.episodeCount > 0)
+                .Where(p => p.drm.HasValue && p.drm.Value && p.episodeCount.HasValue && p.episodeCount > 0)
                 .Select(r => new PayloadInfo
                 {
                     image = r.image == null ? null : r.image.showImage,

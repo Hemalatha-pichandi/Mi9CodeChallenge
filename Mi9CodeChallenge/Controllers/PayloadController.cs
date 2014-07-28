@@ -35,7 +35,7 @@ namespace Mi9CodeChallenge.Controllers
                 }
                 else
                     return new ErrorResult("{\"Error\":\"Could not decode request: JSON parsing failed\"}", Request);
-                    //return BadRequest("Could not decode request: JSON parsing failed");
+                //return BadRequest("Could not decode request: JSON parsing failed");
             }
             catch (Exception ex)
             {

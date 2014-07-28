@@ -1,6 +1,5 @@
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Mi9CodeChallenge.Tests.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Mi9CodeChallenge.Tests.pdb
-C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Mi9CodeChallenge.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Microsoft.Data.Edm.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Microsoft.Data.OData.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
@@ -17,7 +16,6 @@ C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bi
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Web.WebPages.Deployment.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Web.WebPages.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Web.WebPages.Razor.dll
-C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Mi9CodeChallenge.pdb
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Net.Http.Formatting.xml
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Web.Http.WebHost.xml
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\Microsoft.Web.Infrastructure.xml
@@ -31,3 +29,5 @@ C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bi
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\obj\Release\Mi9CodeChallenge.Tests.csprojResolveAssemblyReference.cache
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\obj\Release\Mi9CodeChallenge.Tests.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\obj\Release\Mi9CodeChallenge.Tests.pdb
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Web.Http.xml
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge.Tests\bin\Release\System.Web.Mvc.xml

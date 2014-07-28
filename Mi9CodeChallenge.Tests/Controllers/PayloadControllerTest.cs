@@ -32,27 +32,27 @@ namespace Mi9CodeChallenge.Tests.Controllers
             Assert.IsInstanceOfType(actionResult, typeof(ErrorResult));
         }
 
-        [TestMethod]
-        public void PostReturn400withNullPayload()
-        {
-            IHttpActionResult actionResult = payloadController.Post(new InputPayloadRoot { payload = null });
-            //var contentResult = actionResult as NegotiatedContentResult<InputPayloadRoot>;
+        //[TestMethod]
+        //public void PostReturn400withNullPayload()
+        //{
+        //    IHttpActionResult actionResult = payloadController.Post(new InputPayloadRoot { payload = null });
+        //    //var contentResult = actionResult as NegotiatedContentResult<InputPayloadRoot>;
 
-            Assert.IsInstanceOfType(actionResult, typeof(ErrorResult));
-        }
+        //    Assert.IsInstanceOfType(actionResult, typeof(ErrorResult));
+        //}
 
-        [TestMethod]
-        public void PostReturnContentwithValidPayload()
-        {
-            InputPayloadRoot payload = SetTestData();
-            IHttpActionResult actionResult = payloadController.Post(payload);
+        //[TestMethod]
+        //public void PostReturnContentwithValidPayload()
+        //{
+        //    InputPayloadRoot payload = SetTestData();
+        //    IHttpActionResult actionResult = payloadController.Post(payload);
 
-            StatusCodeResult statusCodeResult = actionResult as StatusCodeResult;
-            var negotiatedResult = actionResult as OkNegotiatedContentResult<List<PayloadInfo>>;
-            Assert.IsNotNull(negotiatedResult);
-            Assert.AreEqual<int>(3, negotiatedResult.Content.Count);
+        //    StatusCodeResult statusCodeResult = actionResult as StatusCodeResult;
+        //    var negotiatedResult = actionResult as OkNegotiatedContentResult<List<PayloadInfo>>;
+        //    Assert.IsNotNull(negotiatedResult);
+        //    Assert.AreEqual<int>(3, negotiatedResult.Content.Count);
 
-        }
+        //}
         
         private static InputPayloadRoot SetTestData()
         {
