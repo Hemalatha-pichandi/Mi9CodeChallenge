@@ -11,3 +11,4 @@ C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge\bin\Syst
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge\bin\Newtonsoft.Json.xml
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge\obj\Release\Mi9CodeChallenge.dll
 C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge\obj\Release\Mi9CodeChallenge.pdb
+C:\Users\HareKrishna\Documents\GitHub\Mi9CodeChallenge\Mi9CodeChallenge\obj\Release\Mi9CodeChallenge.csprojResolveAssemblyReference.cache

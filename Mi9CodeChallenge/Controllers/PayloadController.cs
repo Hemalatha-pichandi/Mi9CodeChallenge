@@ -25,7 +25,7 @@ namespace Mi9CodeChallenge.Controllers
         {
             try
             {
-                List<PayloadInfo> payloadInfos = new List<PayloadInfo>();
+                OutputPayload payloadInfos = new OutputPayload();
 
                 PayloadBL payloadBL = new PayloadBL();
                 if (payloadBL.ValidateData(inputPayload))
