@@ -47,9 +47,9 @@ namespace Mi9CodeChallenge.Tests.Controllers
             InputPayloadRoot payload = SetTestData();
             IHttpActionResult actionResult = payloadController.Post(payload);
 
-            var negotiatedResult = actionResult as OkNegotiatedContentResult<OutputPayload>;            
+            var negotiatedResult = actionResult as OkNegotiatedContentResult<Response>;            
             Assert.IsNotNull(negotiatedResult);
-            Assert.AreEqual<int>(4, negotiatedResult.Content.payloadInfo.Count);
+            Assert.AreEqual<int>(4, negotiatedResult.Content.response.Count);
         }
         
         private static InputPayloadRoot SetTestData()

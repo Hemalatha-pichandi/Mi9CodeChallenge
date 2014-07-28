@@ -17,9 +17,9 @@ namespace Mi9CodeChallenge.Models
 
     }
 
-    public class OutputPayload
+    public class Response
     {
         [JsonProperty(PropertyName = "response")]
-        public List<PayloadInfo> payloadInfo { get; set; }
+        public List<PayloadInfo> response { get; set; }
     }
 }

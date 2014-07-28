@@ -15,7 +15,7 @@ namespace Mi9CodeChallenge.Models
         }
 
         //public List<PayloadInfo> QueryData(InputPayloadRoot inputPayload)
-        public OutputPayload QueryData(InputPayloadRoot inputPayload)
+        public Response QueryData(InputPayloadRoot inputPayload)
         {
             var result = inputPayload.payload
                 .Where(p => p.drm.HasValue && p.drm.Value && p.episodeCount.HasValue && p.episodeCount > 0)
@@ -26,8 +26,8 @@ namespace Mi9CodeChallenge.Models
                     title = r.title
                 });
 
-            var output = new OutputPayload();
-            output.payloadInfo = result.ToList();            
+            var output = new Response();
+            output.response = result.ToList();            
             return output;
         }
     }
