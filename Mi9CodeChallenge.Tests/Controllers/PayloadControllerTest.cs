@@ -62,15 +62,26 @@ namespace Mi9CodeChallenge.Tests.Controllers
                 new Payload { drm = false, episodeCount = 0},
                 new Payload { drm = false, episodeCount = 1},
                 new Payload { drm = true, episodeCount = 0}, 
-                new Payload { slug="show/seapatrol", title="Sea Patrol", tvChannel="Channel 9"},               
-                new Payload { country="UK", description="What's life like when you have enough children to field your own football team?", 
-                    drm = true, episodeCount = 0, slug = "show/16kidsandcounting", title="16 Kids and Counting", 
+                //new Payload { slug="show/seapatrol", title="Sea Patrol", tvChannel="Channel 9"},               
+                //new Payload { country="UK", description="What's life like when you have enough children to field your own football team?", 
+                //    drm = true, episodeCount = 0, slug = "show/16kidsandcounting", title="16 Kids and Counting", 
+                //              image = new Image
+                //              { 
+                //                  showImage = "http://catchup.ninemsn.com.au/img/jump-in/shows/16KidsandCounting1280.jpg"
+                //              }},
+                //new Payload { country="USA", description="What's life like when you have enough children to field your own football team?", 
+                //    drm = true, episodeCount = 1, slug = "show/16kidsandcounting", title="16 Kids and Counting", 
+                //              image = new Image
+                //              { 
+                //                  showImage = "http://catchup.ninemsn.com.au/img/jump-in/shows/16KidsandCounting1280.jpg"
+                //              }},
+                new Payload { slug="show/seapatrol", title="Sea Patrol"},               
+                new Payload { drm = true, episodeCount = 0, slug = "show/16kidsandcounting", title="16 Kids and Counting", 
                               image = new Image
                               { 
                                   showImage = "http://catchup.ninemsn.com.au/img/jump-in/shows/16KidsandCounting1280.jpg"
                               }},
-                new Payload { country="USA", description="What's life like when you have enough children to field your own football team?", 
-                    drm = true, episodeCount = 1, slug = "show/16kidsandcounting", title="16 Kids and Counting", 
+                new Payload { drm = true, episodeCount = 1, slug = "show/16kidsandcounting", title="16 Kids and Counting", 
                               image = new Image
                               { 
                                   showImage = "http://catchup.ninemsn.com.au/img/jump-in/shows/16KidsandCounting1280.jpg"

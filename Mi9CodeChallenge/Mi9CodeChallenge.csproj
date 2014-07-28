@@ -88,6 +88,7 @@
     <Compile Include="Models\Payload.cs" />
     <Compile Include="Models\PayloadBL.cs" />
     <Compile Include="Models\OutputPayload.cs" />
+    <Compile Include="Models\TextResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
